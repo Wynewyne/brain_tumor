@@ -12,7 +12,7 @@ import streamlit as st
 import pickle
 
 # load model
-model = pickle.load(open('C:/Users/hp/Desktop/VGG_frozen',"rb"))
+model = pickle.load(open('VGG_frozen',"rb"))
 
 # display streamlit page title and prompt
 st.title('What type of brain tumor is this?')
